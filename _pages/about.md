@@ -8,11 +8,11 @@ profile:
   align: left
   image: profile-photo.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Social Data Science and AI Lab</p>
-    <p>Department of Statistics, LMU Munich</p>
-    <p>Ludwigstr. 33</p>
-    <p>80539 Munich, Germany</p>
+  # more_info: >
+  #   <p>Social Data Science and AI Lab</p>
+  #   <p>LMU Munich</p>
+  #   <p>Ludwigstr. 33</p>
+  #   <p>80539 Munich, Germany</p>
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
