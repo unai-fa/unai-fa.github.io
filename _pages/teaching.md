@@ -70,6 +70,8 @@ nav_order: 6
   </div>
 </div>
 
+<br>
+
 <h3 style="color: #4b9cd3;" id="hd"><a href="https://www.uni-heidelberg.de/en">Heidelberg University</a></h3>
 
 
@@ -103,6 +105,9 @@ nav_order: 6
     <ul class="card-text font-weight-light list-group list-group-flush">
       <li class="list-group-item">
         <div class="row">
+         <div class="col-sm-3">
+        <a href="https://github.com/unai-fa/css-lecture">Exercise Sheets</a>
+          </div>
         </div>
       </li>
     </ul>
