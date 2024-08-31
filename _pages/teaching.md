@@ -64,6 +64,9 @@ nav_order: 6
     <ul class="card-text font-weight-light list-group list-group-flush">
       <li class="list-group-item">
         <div class="row">
+        <div class="col-sm-3">
+          <a href="https://github.com/unai-fa/css-lecture">Exercise Sheets</a>
+        </div>
         </div>
       </li>
     </ul>
@@ -103,9 +106,6 @@ nav_order: 6
     <ul class="card-text font-weight-light list-group list-group-flush">
       <li class="list-group-item">
         <div class="row">
-         <div class="col-sm-3">
-        <a href="https://github.com/unai-fa/css-lecture">Exercise Sheets</a>
-          </div>
         </div>
       </li>
     </ul>
