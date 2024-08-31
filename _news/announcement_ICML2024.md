@@ -1,0 +1,8 @@
+---
+layout: post
+date: 2024-07-22 15:59:00-0400
+inline: true
+related_posts: false
+---
+
+Attending ICML 2024 and presenting my poster at the [Humans, Algorithmic Decision-Making and Society](https://humans-algs-society.github.io) workshop.
