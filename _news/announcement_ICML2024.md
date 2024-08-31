@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Attending ICML 2024 and presenting my poster at the [Humans, Algorithmic Decision-Making and Society](https://humans-algs-society.github.io) workshop.
+I am attending ICML 2024 where I will present my poster at the [Humans, Algorithmic Decision-Making and Society](https://humans-algs-society.github.io) workshop.
