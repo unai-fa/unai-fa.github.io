@@ -30,7 +30,6 @@ nav_order: 6
   </div>
 </div>
 
-
 <!--  Machine Learning Meets Causality -->
 <div class="card mt-3">
   <div class="p-3">

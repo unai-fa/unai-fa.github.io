@@ -18,7 +18,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi, I'm Unai! I'm a PhD Student in Statistics at the LMU Munich, where I focus on applying (causal) machine learning to high-stakes decision-making. I have a strong interest in the societal implications of algorithmic decision-making in the public sector, particularly in the context of using machine learning to tackle resource allocation problems. 
+Hi, I'm Unai! I'm a PhD Student in Statistics at the LMU Munich, where I focus on applying (causal) machine learning to high-stakes decision-making. I have a strong interest in the societal implications of algorithmic decision-making in the public sector, particularly in the context of using machine learning to tackle resource allocation problems.
 
 I joined the [Social Data Science and AI Lab](https://www.stat.lmu.de/soda/en/) as a PhD Student in October 2022, supported by the [Konrad Zuse School for Excellence in Reliable AI](https://zuseschoolrelai.de) and the [Munich Center for Machine Learning](https://mcml.ai). I have a background in Physics with a Bachelor's and Master's degree from [Heidelberg University](https://www.uni-heidelberg.de/en), where I specialized in dynamical systems, networks, and statistical machine learning for time series. Before my PhD, I worked as a research associate at the [Hertie School Data Science Lab](https://www.hertie-school.org/en/research/research-centres/hertie-school-data-science-lab) in Berlin, where I explored the application of machine learning to public policy and governance.
 
