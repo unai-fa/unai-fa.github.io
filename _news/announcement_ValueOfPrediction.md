@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-New preprint on [The Value of Prediction in Identifying the Worst-Off](/assets/pdf/TheValueofPredictioninIdentifyingtheWorst-Off.pdf) with Juan C. Perdomo and Christoph Kern. 
+New preprint on [The Value of Prediction in Identifying the Worst-Off](https://arxiv.org/abs/2501.19334) with Juan C. Perdomo and Christoph Kern. 
