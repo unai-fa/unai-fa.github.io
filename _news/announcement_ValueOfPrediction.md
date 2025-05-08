@@ -5,4 +5,5 @@ inline: true
 related_posts: false
 ---
 
-New preprint on [The Value of Prediction in Identifying the Worst-Off](https://arxiv.org/abs/2501.19334) with Juan C. Perdomo and Christoph Kern. 
+Our paper The Value of Prediction in Identifying the Worst-Off has been accepted as a spotlight poster at ICML 2025!
+
