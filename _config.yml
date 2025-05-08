@@ -135,6 +135,7 @@ collections:
     defaults:
       layout: post
     output: true
+    scrollable: true
     permalink: /:collection/:title/
 
 announcements:
