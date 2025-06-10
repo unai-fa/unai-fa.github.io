@@ -15,7 +15,7 @@ nav_order: 4
     <div class="row">
       <div class="col-sm-10">
         <h5 id="AMS" class="card-title"> Advanced Methods in Social Statistics and Social Data Science</h5>
-        <h6 class="card-subtitle font-italic">Summer 2024: Co-Instructor</h6>
+        <h6 class="card-subtitle font-italic">Summer 2024, 2025: Co-Instructor</h6>
       </div>
     </div>
     <ul class="card-text font-weight-light list-group list-group-flush">
