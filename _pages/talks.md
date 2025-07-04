@@ -8,7 +8,6 @@ nav_order: 3
 
 {% assign sorted_talks = site.data.talks | sort: 'date' | reverse %}
 
-<h2>Talks</h2>
 <ul class="list-unstyled">
   {% for talk in sorted_talks %}
     <li class="mb-3">
