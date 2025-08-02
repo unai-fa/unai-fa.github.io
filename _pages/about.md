@@ -28,11 +28,17 @@ I have a background in Physics with a Bachelor's and Master's degree from [Heide
 
 ## Selected Research
 
-[The Value of Prediction in Identifying the Worst-Off](https://arxiv.org/abs/2501.19334), with Christoph Kern and Juan Carlos Perdomo. ICML 2025 (Outstanding Paper Award). Highlight Track @ FORC 2025.
+[The Value of Prediction in Identifying the Worst-Off](https://arxiv.org/abs/2501.19334)
+**Unai Fischer-Abaigar**, Christoph Kern and Juan Carlos Perdomo
+*International Conference on Machine Learning*, 2025 (Outstanding Paper Award). Highlight Track @ FORC 2025.
 
-[Algorithms for Reliable Decision-Making Need Causal Reasoning](https://rdcu.be/enVCs), with Christoph Kern, Jonas Schweisthal, Dennis Frauen, Rayid Ghani, Stefan Feuerriegel, Mihaela van der Schaar, and Frauke Kreuter. Nature Computational Science, 2025.
+[Algorithms for Reliable Decision-Making Need Causal Reasoning](https://rdcu.be/enVCs)
+Christoph Kern, **Unai Fischer-Abaigar**, Jonas Schweisthal, Dennis Frauen, Rayid Ghani, Stefan Feuerriegel, Mihaela van der Schaar, and Frauke Kreuter
+*Nature Computational Science*, 2025
 
-[Bridging the Gap: Towards an Expanded Toolkit for AI-Driven Decision-Making in the Public Sector](https://doi.org/10.1016/j.giq.2024.101976), with Christoph Kern, Noam Barda, and Frauke Kreuter. Government Information Quarterly, 2024.
+[Bridging the Gap: Towards an Expanded Toolkit for AI-Driven Decision-Making in the Public Sector](https://doi.org/10.1016/j.giq.2024.101976)
+**Unai Fischer-Abaigar**, Christoph Kern, Noam Barda, and Frauke Kreuter
+*Government Information Quarterly*, 2024
 
 [Full publication list](/publications)
 
