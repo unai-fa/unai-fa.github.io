@@ -32,7 +32,7 @@ I have a background in Physics with a Bachelor's and Master's degree from [Heide
 
 **Algorithms for Reliable Decision-Making Need Causal Reasoning**, with Christoph Kern, Jonas Schweisthal, Dennis Frauen, Rayid Ghani, Stefan Feuerriegel, Mihaela van der Schaar, and Frauke Kreuter. Nature Computational Science, 2025. [View Article](https://rdcu.be/enVCs).
 
-**Bridging the Gap: Towards an Expanded Toolkit for AI-Driven Decision-Making in the Public Sector**, with Christoph Kern, Noam Barda, and Frauke Kreuter. Government Information Quarterly, 2024. [DOI](https://doi.org/10.1016/j.giq.2024.101976)
+**Bridging the Gap: Towards an Expanded Toolkit for AI-Driven Decision-Making in the Public Sector**, with Christoph Kern, Noam Barda, and Frauke Kreuter. Government Information Quarterly, 2024. [View Article](https://doi.org/10.1016/j.giq.2024.101976).
 
 [Full publication list](/publications)
 
