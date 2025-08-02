@@ -1,12 +1,12 @@
----
+<!-- ---
 layout: page
 permalink: /talks/
 title: talks
 nav: true
 nav_order: 3
----
+--- -->
 
-{% assign sorted_talks = site.data.talks | sort: 'date' | reverse %}
+<!-- {% assign sorted_talks = site.data.talks | sort: 'date' | reverse %}
 
 <ul class="list-unstyled">
   {% for talk in sorted_talks %}
@@ -17,4 +17,4 @@ nav_order: 3
       </p>
     </li>
   {% endfor %}
-</ul>
+</ul> -->

@@ -134,12 +134,12 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
+    output: false
     scrollable: true
     permalink: /:collection/:title/
 
 announcements:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: # leave blank to include all the news in the `_news` folder
 
@@ -180,6 +180,8 @@ exclude:
   - package-lock.json
   - _pages/about_einstein.md
   - purgecss.config.js
+  - talks.md
+  - teaching.md
   - README.md
   - readme_preview/
   - vendor

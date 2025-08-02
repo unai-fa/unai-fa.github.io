@@ -1,11 +1,11 @@
----
+<!-- ---
 layout: page
 permalink: /teaching/
 title: teaching
 description:
 nav: true
 nav_order: 4
----
+--- -->
 
 <h3 style="color: #4b9cd3;" id="lmu"><a href="https://www.lmu.de/en">LMU Munich</a></h3>
 
