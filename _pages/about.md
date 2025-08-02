@@ -69,7 +69,7 @@ I have a background in Physics with a Bachelor's and Master's degree from [Heide
 
 ## Outreach
 
-* Co-Organizer, [Data Science for Social Good Munich](https://www.dssgxmunich.org) (2022 – 2024). Helped coordinate a paid two-month fellowship where aspiring data scientists work on real-world machine learning projects with social impact partners.
+* Co-Organizer, [Data Science for Social Good Munich](https://www.dssgxmunich.org) (2022 – 2024). Helped coordinate a paid two-month fellowship where aspiring data scientists work on real-world machine learning projects in the public sector.
 * Co-Organizer, [DataFest Germany](https://www.datafest.de) (2023, 2025), a national data analysis hackathon aimed at students from across Germany.
 
 
