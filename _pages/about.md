@@ -18,13 +18,13 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello! I'm a PhD student in Statistics at the [University of Munich (LMU)](https://www.lmu.de/en/), where I study the foundations of prediction systems used to guide resource allocations in the public sector. A core theme of my research is thinking holistically about decision-making systems, examining not just the predictive algorithms themselves but how they are designed, deployed, and integrated into broader decision-making processes.
+I am a PhD student in Statistics at the [University of Munich (LMU)](https://www.lmu.de/en/), where I study the foundations of prediction systems used to guide resource allocations in the public sector. A core theme of my research is thinking holistically about decision-making systems, examining not just the predictive algorithms themselves but how they are designed, deployed, and integrated into broader decision-making processes.
 
 I joined the [Social Data Science and AI Lab](https://www.stat.lmu.de/soda/en/) in October 2022, supported by the [Konrad Zuse School for Excellence in Reliable AI](https://zuseschoolrelai.de) and the [Munich Center for Machine Learning](https://mcml.ai). I'm advised by [Christoph Kern](https://www.stat.lmu.de/soda/en/team/contact-page/christoph-kern-11bd67d0.html) and [Frauke Kreuter](https://www.stat.lmu.de/soda/en/team/contact-page/frauke-kreuter-825909f7.html). 
 
-In fall 2024, I was a visiting fellow at [Harvard's John A. Paulson School of Engineering and Applied Sciences](https://seas.harvard.edu), hosted by [Cynthia Dwork](https://dwork.seas.harvard.edu) and [Juan Carlos Perdomo](https://jcperdomo.org).
+In Fall 2024, I was a visiting fellow at [Harvard](https://seas.harvard.edu), hosted by [Cynthia Dwork](https://dwork.seas.harvard.edu) and [Juan Carlos Perdomo](https://jcperdomo.org).
 
-I have a background in Physics with a Bachelor's and Master's degree from [Heidelberg University](https://www.uni-heidelberg.de/en), where I specialized in dynamical systems, networks, and statistical machine learning for time series. Before my PhD, I worked as a research associate at the [Hertie School Data Science Lab](https://www.hertie-school.org/en/research/research-centres/hertie-school-data-science-lab) in Berlin, where I explored machine learning applications in public policy and governance.
+I hold a BSc and MSc in Physics from [Heidelberg University](https://www.uni-heidelberg.de/en), where I specialized in dynamical systems, networks, and statistical machine learning for time series. Before my PhD, I worked as a research associate at the [Hertie School Data Science Lab](https://www.hertie-school.org/en/research/research-centres/hertie-school-data-science-lab) in Berlin, where I explored machine learning applications in public policy and governance.
 
 ## Selected Research
 
