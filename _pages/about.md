@@ -41,7 +41,7 @@ Christoph Kern, **UFA**, Jonas Schweisthal, Dennis Frauen, Rayid Ghani, Stefan F
 **UFA**, Christoph Kern, Noam Barda, and Frauke Kreuter  
 *Government Information Quarterly*, 2024
 
-[Full publication list](/publications)
+[Full publication list »](/publications)
 
 ## Awards, Grants and Fellowships
 
