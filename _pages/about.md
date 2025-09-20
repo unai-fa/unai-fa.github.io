@@ -30,8 +30,8 @@ I hold a BSc and MSc in Physics from [Heidelberg University](https://www.uni-hei
 
 [The Value of Prediction in Identifying the Worst-Off](https://arxiv.org/abs/2501.19334)    
 **UFA**, Christoph Kern and Juan Carlos Perdomo    
-*International Conference on Machine Learning*, 2025 (Outstanding Paper Award). Highlight Track @ FORC 2025.
-Media coverage: [NYU DS Blog](https://nyudatascience.medium.com/helping-the-worst-off-when-hiring-more-case-workers-beats-building-better-ai-12e6f968de0b), [AIhub Interview](https://aihub.org/2025/08/27/the-value-of-prediction-in-identifying-the-worst-off-interview-with-unai-fischer-abaigar/)
+*International Conference on Machine Learning*, 2025 (Outstanding Paper Award). Highlight Track @ FORC 2025.    
+Media coverage: [NYU Data Science](https://nyudatascience.medium.com/helping-the-worst-off-when-hiring-more-case-workers-beats-building-better-ai-12e6f968de0b), [AIhub Interview](https://aihub.org/2025/08/27/the-value-of-prediction-in-identifying-the-worst-off-interview-with-unai-fischer-abaigar/)
 
 [Algorithms for Reliable Decision-Making Need Causal Reasoning](https://rdcu.be/enVCs)     
 Christoph Kern, **UFA**, Jonas Schweisthal, Dennis Frauen, Rayid Ghani, Stefan Feuerriegel, Mihaela van der Schaar, and Frauke Kreuter   
