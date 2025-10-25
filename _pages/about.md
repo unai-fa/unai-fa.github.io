@@ -32,7 +32,7 @@ I hold a BSc and MSc in Physics from [Heidelberg University](https://www.uni-hei
 [The Value of Prediction in Identifying the Worst-Off](https://arxiv.org/abs/2501.19334)    
 **UFA**, Christoph Kern and Juan Carlos Perdomo    
 *International Conference on Machine Learning*, 2025 (Outstanding Paper Award). Highlight Track @ FORC 2025.    
-Media coverage: [NYU Data Science](https://nyudatascience.medium.com/helping-the-worst-off-when-hiring-more-case-workers-beats-building-better-ai-12e6f968de0b), [AIhub Interview](https://aihub.org/2025/08/27/the-value-of-prediction-in-identifying-the-worst-off-interview-with-unai-fischer-abaigar/)
+**Media coverage:** [NYU Data Science](https://nyudatascience.medium.com/helping-the-worst-off-when-hiring-more-case-workers-beats-building-better-ai-12e6f968de0b), [Podcast Interview](https://open.spotify.com/episode/0UyhJ1wmxUQ5afI6jnql85?si=2366cf2f93e946f7) on the Executive Code, [AIhub Interview](https://aihub.org/2025/08/27/the-value-of-prediction-in-identifying-the-worst-off-interview-with-unai-fischer-abaigar/)
 
 [Algorithms for Reliable Decision-Making Need Causal Reasoning](https://rdcu.be/enVCs)     
 Christoph Kern, **UFA**, Jonas Schweisthal, Dennis Frauen, Rayid Ghani, Stefan Feuerriegel, Mihaela van der Schaar, and Frauke Kreuter   
@@ -46,8 +46,8 @@ Christoph Kern, **UFA**, Jonas Schweisthal, Dennis Frauen, Rayid Ghani, Stefan F
 
 ## Awards, Grants and Fellowships
 
-- LMU–NYU Research Cooperation. Funding awarded for the project *Foundations of Statistical Prediction in the Public Sphere*, supporting a research stay at NYU (~€10,000)
-- [ICML 2025 Outstanding Paper Award](https://icml.cc/virtual/2025/awards_detail); received the award for *The Value of Prediction in Identifying the Worst-Off*; one of only six papers selected from the main track at ICML 2025
+- [LMU–NYU Research Cooperation](https://www.lmu.de/en/about-lmu/international-network/lmu-nyu-research-cooperation-program/). Funding awarded for the project *Foundations of Statistical Prediction in the Public Sphere* (~€10,000)
+- [ICML 2025 Outstanding Paper Award](https://icml.cc/virtual/2025/awards_detail) (awarded to 6 papers, out of 10k+ submissions)
 - Selected for [Konrad Zuse School for Excellence in Reliable AI](https://zuseschoolrelai.de), a competitive program offering funding and support for research in reliable and socially responsible AI
 - Awarded a scholarship from the [German Academic Scholarship Foundation](https://www.studienstiftung.de) (*Studienstiftung des deutschen Volkes*), Germany's most prestigious academic foundation (top 0.5% of students)
 
