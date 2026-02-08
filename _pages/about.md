@@ -30,7 +30,7 @@ I hold a BSc and MSc in Physics from [Heidelberg University](https://www.uni-hei
 ## Selected Research
 
 [Empirically Understanding the Value of Prediction in Allocation](https://unaifischerabaigar.com/assets/pdf/EmpiricallyUnderstandingtheValueofPredictioninAllocation.pdf)   
-**UFA**, Emily Aiken, Christoph Kern, Juan Carlos Perdomo
+**UFA**, Emily Aiken, Christoph Kern, Juan Carlos Perdomo    
 *Under Review*, 2026
 
 [The Value of Prediction in Identifying the Worst-Off](https://arxiv.org/abs/2501.19334)    
