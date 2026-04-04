@@ -18,6 +18,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
+*Starting Fall 2026, I will be joining [NYU's Center for Data Science](https://cds.nyu.edu) as an Assistant Professor & Faculty Fellow.*.
+
 I am a PhD student in Statistics at the [University of Munich (LMU)](https://www.lmu.de/en/), where I study the foundations of prediction systems used to guide resource allocations in the public sector. A core theme of my research is thinking holistically about decision-making systems, examining not just the predictive algorithms themselves but how they are designed, deployed, and integrated into broader decision-making processes.
 
 I joined the [Social Data Science and AI Lab](https://www.stat.lmu.de/soda/en/) in October 2022, supported by the [Konrad Zuse School for Excellence in Reliable AI](https://zuseschoolrelai.de) and the [Munich Center for Machine Learning](https://mcml.ai). I'm advised by [Christoph Kern](https://www.stat.lmu.de/soda/en/team/contact-page/christoph-kern-11bd67d0.html) and [Frauke Kreuter](https://www.stat.lmu.de/soda/en/team/contact-page/frauke-kreuter-825909f7.html). 
