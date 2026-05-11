@@ -26,12 +26,12 @@ I joined the [Social Data Science and AI Lab](https://www.stat.lmu.de/soda/en/) 
 
 In Fall 2024, I was a visiting fellow at [Harvard](https://seas.harvard.edu), hosted by [Cynthia Dwork](https://dwork.seas.harvard.edu) and [Juan Carlos Perdomo](https://jcperdomo.org). In Spring 2026, I will be visiting [MIT](https://lids.mit.edu) hosted by [Sendhil Mullainathan](https://sendhil.org).
 
-I hold a BSc and MSc in Physics from [Heidelberg University](https://www.uni-heidelberg.de/en), where I specialized in dynamical systems, networks, and statistical machine learning for time series. Before my PhD, I worked as a research associate at the [Hertie School Data Science Lab](https://www.hertie-school.org/en/research/research-centres/hertie-school-data-science-lab) in Berlin, where I explored machine learning applications in public policy and governance.   
+I hold a BSc and MSc in Physics from [Heidelberg University](https://www.uni-heidelberg.de/en), where I specialized in dynamical systems, networks, and statistical machine learning for time series. Before my PhD, I worked as a research associate at the [Hertie School Data Science Lab](https://www.hertie-school.org/en/research/research-centres/hertie-school-data-science-lab) in Berlin, where I worked on machine learning in public policy and governance.   
 <br/><br/>
 
 ## Selected Research
 
-[Empirically Understanding the Value of Prediction in Allocation](https://www.arxiv.org/abs/2602.08786)   
+[On the Meta-Design of Allocation Problems](https://www.arxiv.org/abs/2602.08786)   
 **UFA**, Emily Aiken, Christoph Kern, Juan Carlos Perdomo    
 *Under Review*, 2026    
 [`rvp` toolkit](https://github.com/unai-fa/relative-value-of-prediction)
