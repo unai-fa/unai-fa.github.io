@@ -7,6 +7,7 @@
 	journal = {Under Review},
 	year={2026},
   arxiv={2602.08786},
+  code={https://github.com/unai-fa/relative-value-of-prediction},
   abstract = {There is an extensive literature that studies how to find optimal policies in resource
 allocation problems, taking the underlying design parameters that define the allocation,
 such as what data is collected, how many people can be served, and quality of service as
@@ -24,10 +25,10 @@ in Ethiopia.}
 }
 
 
-@article{rodemann2026performativelearningtheory,
+@inproceedings{rodemann2026performativelearningtheory,
 	title={Performative Learning Theory},
 	author={Julian Rodemann and Unai Fischer-Abaigar and James Bailie and Krikamol Muandet},
-	journal = {Under Review},
+	booktitle = {International Conference on Machine Learning (ICML)},
 	year={2026},
   arxiv = {2602.04402},
   abstract = {Performative predictions influence the very outcomes they aim to forecast. We study performative predictions that affect a sample (e.g., only existing users of an app) and/or the whole population (e.g., all potential app users). This raises the question of how well models generalize under performativity. For example, how well can we draw insights about new app users based on existing users when both of them react to the app's predictions? We address this question by embedding performative predictions into statistical learning theory. We prove generalization bounds under performative effects on the sample, on the population, and on both. A key intuition behind our proofs is that in the worst case, the population negates predictions, while the sample deceptively fulfills them. We cast such self-negating and self-fulfilling predictions as min-max and min-min risk functionals in Wasserstein space, respectively. Our analysis reveals a fundamental trade-off between performatively changing the world and learning from it: the more a model affects data, the less it can learn from it. Moreover, our analysis results in a surprising insight on how to improve generalization guarantees by retraining on performatively distorted samples. We illustrate our bounds in a case study on prediction-informed assignments of unemployed German residents to job trainings, drawing upon administrative labor market records from 1975 to 2017 in Germany.}
@@ -40,7 +41,8 @@ in Ethiopia.}
 	booktitle = {Proceedings of the 42nd International Conference on Machine Learning (ICML)},
 	year={2025},
   arxiv = {2501.19334},
-	note = {🏆 <strong>Outstanding Paper Award @ ICML 2025 · Highlight Track @ FORC 2025</strong>},
+	note = {🏆 <strong>Outstanding Paper Award at ICML 2025, Highlight Track at FORC 2025</strong>},
+  media = {<a href="https://nyudatascience.medium.com/helping-the-worst-off-when-hiring-more-case-workers-beats-building-better-ai-12e6f968de0b">NYU Data Science</a>, <a href="https://open.spotify.com/episode/0UyhJ1wmxUQ5afI6jnql85?si=2366cf2f93e946f7">podcast interview</a>, and <a href="https://aihub.org/2025/08/27/the-value-of-prediction-in-identifying-the-worst-off-interview-with-unai-fischer-abaigar/">AIhub interview</a>},
   selected={true},
   abstract = {Machine learning is increasingly used in government programs to identify and support the most vulnerable individuals, prioritizing assistance for those at greatest risk over optimizing aggregate outcomes. This paper examines the welfare impacts of prediction in equity-driven contexts, and how they compare to other policy levers, such as expanding bureaucratic capacity. Through mathematical models and a real-world case study on long-term unemployment amongst German residents, we develop a comprehensive understanding of the relative effectiveness of prediction in surfacing the worst-off. Our findings provide clear analytical frameworks and practical, data-driven tools that empower policymakers to make principled decisions when designing these systems.}
 }
@@ -116,4 +118,3 @@ abstract = {AI-driven decision-making systems are becoming instrumental in the p
   pdf          = {UnaiFischerAbaigar_MasterThesis.pdf},
   abstract     = {Ordinal data, crucial for many scientific disciplines, consists of a discrete set of labels for which a natural ordering but no specified distance measure exists. In practice, this pecu- liarity of ordinal data is oftentimes overlooked, with many models making the simplified assumption that it can be interpreted as either metric or categorical. The rise of digital tech- nologies allows the collection of ever larger data sets, facilitating the use of more powerful and expressive machine learning architectures. This thesis proposes and evaluates a deep probabilistic latent model for forecasting ordinal time series by integrating an ordered-logit model into a sequential variational autoencoder framework. The model is developed in the context of a multi-university research initiative (Living lab AI4U) with the goal to predict in- dividuals’ emotional trajectories using time series data collected from questionnaires on their smartphones to suggest personalized mental health interventions. The model is evaluated using empirical data collected during a psychiatric study and benchmark data matching this data is created to test the model’s theoretical limitations. Hierarchical parameter estimation is implemented to deal with sparse and short time series. The findings identify future av- enues for dealing with irregular time series, missing values and ways to integrate multimodal sensor data from smartphones.}
 }
-

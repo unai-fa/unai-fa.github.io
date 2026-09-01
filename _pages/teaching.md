@@ -1,112 +1,30 @@
-<!-- ---
+---
 layout: page
 permalink: /teaching/
 title: teaching
-description:
 nav: true
 nav_order: 4
---- -->
+compact: true
+---
 
-<h3 style="color: #4b9cd3;" id="lmu"><a href="https://www.lmu.de/en">LMU Munich</a></h3>
+<section class="teaching-group">
+  <h2><a href="https://www.lmu.de/en">LMU Munich</a></h2>
+  <ul class="teaching-bullets">
+    <li><strong>Advanced Methods in Social Statistics and Social Data Science</strong>, Co-Instructor (Summer 2024 and 2025)</li>
+    <li><strong>Machine Learning Meets Causality</strong>, Co-Instructor (Winter 2023)</li>
+    <li><strong>Computational Social Science</strong>, Teaching Assistant (Winter 2022, 2023, and 2025); <a href="https://github.com/unai-fa/css-lecture">exercise sheets</a></li>
+  </ul>
+</section>
 
-<!--  Advanced Methods in Social Statistics and Social Data Science -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="AMS" class="card-title"> Advanced Methods in Social Statistics and Social Data Science</h5>
-        <h6 class="card-subtitle font-italic">Summer 2024, 2025: Co-Instructor</h6>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9">
-        I taught four lectures introducing challenges in algorithmic decision-making, focusing on topics such as causal modeling, multicalibration, and uncertainty estimation.
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+<section class="teaching-group">
+  <h2><a href="https://www.uni-heidelberg.de/en">Ruprecht Karl University of Heidelberg</a></h2>
+  <ul class="teaching-bullets">
+    <li><strong>Machine Learning for Real-World Challenges</strong>, Teaching Assistant (Summer 2022)</li>
+    <li><strong>Dynamical Systems Theory in Machine Learning and Data Science</strong>, Teaching Assistant (Winter 2021)</li>
+  </ul>
+</section>
 
-<!--  Machine Learning Meets Causality -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="MLC" class="card-title">Machine Learning Meets Causality</h5>
-        <h6 class="card-subtitle font-italic">Winter 2023: Co-Instructor</h6>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9">
-        I co-organized a graduate level seminar on causal machine learning.
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
-
-<!--  Computational Social Science -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="CSS" class="card-title">Computational Social Science</h5>
-        <h6 class="card-subtitle font-italic">Winter 2022 & 2023: Graduate Teaching Assistant</h6>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-        <div class="col-sm-3">
-          <a href="https://github.com/unai-fa/css-lecture">Exercise Sheets</a>
-        </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
-
-<br>
-
-<h3 style="color: #4b9cd3;" id="hd"><a href="https://www.uni-heidelberg.de/en">Heidelberg University</a></h3>
-<!--  Machine Learning for Real World Challenges -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="MLR" class="card-title">Machine Learning for Real World Challenges</h5>
-        <h6 class="card-subtitle font-italic">Summer 2022: Graduate Teaching Assistant</h6>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
-
-<!--  Dynamical Systems Theory in Machine Learning and Data Science -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="MLR" class="card-title">Dynamical Systems Theory in Machine Learning and Data Science</h5>
-        <h6 class="card-subtitle font-italic">Winter 2021: Graduate Teaching Assistant</h6>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+<section class="teaching-outreach">
+  <h2>Outreach</h2>
+  <p>I co-organized <a href="https://www.dssgxmunich.org">Data Science for Social Good Munich</a> from 2022 to 2024, a paid two-month fellowship for applied public-sector machine learning projects, and <a href="https://sites.google.com/view/datafest-lmu-2025/home">DataFest Germany</a> in 2023 and 2025, a national data analysis hackathon for students.</p>
+</section>

@@ -6,18 +6,18 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Unai
 middle_name:
 last_name: Fischer Abaigar
-email: Unai.FischerAbaigar@stat.uni-muenchen.de
+email: uf2034@nyu.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Hello! I'm a PhD student in Statistics at the [University of Munich (LMU)](https://www.lmu.de/en/), where I study the foundations of prediction systems used to guide resource allocations in the public sector. A core theme of my research is thinking holistically about decision-making systems, examining not just the predictive algorithms themselves but how they are designed, deployed, and integrated into broader decision-making processes.
+  Unai Fischer Abaigar is a Faculty Fellow at NYU's Center for Data Science. His research studies prediction-informed decision-making and resource allocation in the public sector.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: #jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+  Built with <a href="https://github.com/alshedivat/al-folio">al-folio</a> and <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+keywords: algorithmic decision-making, machine learning, public policy, resource allocation, causal inference
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🌊  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://unai-fa.github.io # the base hostname & protocol for your site
 baseurl: #/al-folio # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: true # set to true if you want to display last updated in the footer
+last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 
@@ -46,13 +46,13 @@ rss_icon: false
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 search_enabled: false
 socials_in_search: false
 bib_search: false
 
 # Dimensions
-max_width: 930px
+max_width: 960px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -76,7 +76,7 @@ dblp_url: # your DBLP profile url
 discord_id: # your discord id (18-digit unique numerical identifier)
 facebook_id: # your facebook id
 flickr_id: # your flickr id
-github_username: #unai-fa # your GitHub user name
+github_username: unai-fa # your GitHub user name
 gitlab_username: # your GitLab user name
 ieee_id: # your ieeexplore.ieee.org/author/id
 inspirehep_id: #1010907 # Inspire HEP author ID
@@ -88,7 +88,7 @@ lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 linkedin_username: unai-fa # your LinkedIn user name
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 medium_username: # your Medium username
-orcid_id: https://orcid.org/0000-0003-4893-2547 # your ORCID ID
+orcid_id: 0000-0003-4893-2547 # your ORCID ID
 osf_id: # your OSF ID
 pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
@@ -372,7 +372,7 @@ enable_tooltips: false # enables automatic tooltip links generated for each sect
 enable_darkmode: false # enables switching between light/dark modes
 enable_navbar_social: false # enables displaying social links in the navbar on the about page
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
-enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
+enable_progressbar: false # enables a horizontal progress bar linked to the vertical scroll position
 enable_video_embedding: false # enables video embedding for bibtex entries. If false, the button opens the video link in a new window.
 
 # -----------------------------------------------------------------------------
