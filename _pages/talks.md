@@ -4,6 +4,7 @@ permalink: /talks/
 title: talks
 nav: true
 nav_order: 3
+compact: true
 ---
 
 <div class="talk-list">

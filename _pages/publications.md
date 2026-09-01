@@ -4,6 +4,7 @@ permalink: /publications/
 title: publications
 nav: true
 nav_order: 2
+compact: true
 ---
 
 <!-- _pages/publications.md -->
