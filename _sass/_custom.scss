@@ -209,6 +209,11 @@ body {
   margin-top: 0.15rem;
 }
 
+.publications-after-thesis > h2.bibliography:first-of-type {
+  border-top: 0;
+  padding-top: 0;
+}
+
 .teaching-group {
   margin-bottom: 1.7rem;
   max-width: 50rem;
@@ -256,13 +261,18 @@ body {
 }
 
 .talk-list {
-  border-top: 1px solid var(--global-divider-color);
+  margin: 0;
+  max-width: 50rem;
+  padding-left: 1.25rem;
 }
 
 .talk-item {
-  border-bottom: 1px solid var(--global-divider-color);
-  display: block;
-  padding: 0.75rem 0;
+  margin-bottom: 1rem;
+  padding-left: 0.15rem;
+
+  &::marker {
+    color: var(--global-theme-color);
+  }
 
   h2 {
     font-size: 0.98rem;

@@ -21,7 +21,7 @@ compact: true
 
 {% include bib_search.liquid %}
 
-<div class="publications">
+<div class="publications publications-after-thesis">
 
 {% bibliography %}
 
