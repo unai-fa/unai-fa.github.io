@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-role: Assistant Professor / Faculty Fellow at NYU CDS
+role: Faculty Fellow at NYU CDS
 role_url: https://cds.nyu.edu
 bio: |
   I study the foundations of prediction systems used to guide resource allocation in the public sector. A core theme of my research is thinking holistically about decision-making systems, examining not just the predictive algorithms themselves but how they are designed, deployed, and integrated into broader decision-making processes.
