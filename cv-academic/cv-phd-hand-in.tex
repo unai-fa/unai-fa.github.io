@@ -1,0 +1,332 @@
+\documentclass[margin,line, 10pt]{res}
+
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{fontawesome}
+\usepackage[dvipsnames]{xcolor}
+\definecolor{hypercolor}{HTML}{800000}
+\definecolor{top}{HTML}{ff0000} 
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	urlcolor=hypercolor,
+}
+
+\usepackage[backend=biber, maxnames=10, giveninits=true, style=authoryear, sorting=ydnt]{biblatex}
+%\bibliographystyle{plain} % Choose a style: plain, alpha, unsrt, etc.
+\addbibresource{references.bib}
+
+\def\makenamesetup{%
+	\def\bibnamedelima{~}%
+	\def\bibnamedelimb{ }%
+	\def\bibnamedelimc{ }%
+	\def\bibnamedelimd{ }%
+	\def\bibnamedelimi{ }%
+	\def\bibinitperiod{.}%
+	\def\bibinitdelim{~}%
+	\def\bibinithyphendelim{.-}}    
+\newcommand*{\makename}[2]{\begingroup\makenamesetup\xdef#1{#2}\endgroup}
+
+\newcommand*{\boldname}[3]{%
+	\def\lastname{#1}%
+	\def\firstname{#2}%
+	\def\firstinit{#3}}
+\boldname{}{}{}
+
+% Patch new definitions
+\renewcommand{\mkbibnamegiven}[1]{%
+	\ifboolexpr{ ( test {\ifdefequal{\firstname}{\namepartgiven}} or test {\ifdefequal{\firstinit}{\namepartgiven}} ) and test {\ifdefequal{\lastname}{\namepartfamily}} }
+	{\mkbibbold{#1}}{#1}%
+}
+
+\renewcommand{\mkbibnamefamily}[1]{%
+	\ifboolexpr{ ( test {\ifdefequal{\firstname}{\namepartgiven}} or test {\ifdefequal{\firstinit}{\namepartgiven}} ) and test {\ifdefequal{\lastname}{\namepartfamily}} }
+	{\mkbibbold{#1}}{#1}%
+}
+
+\boldname{Fischer-Abaigar}{Unai}{U.}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancypagestyle{lastpage}
+{
+	\fancyfoot[L] {\sffamily \thepage}    
+	\fancyfoot[R] {\sffamily{Letzte Aktualisierung: \today}}
+}
+\fancyhead{}
+\fancyfoot{}
+\fancyfoot[L]{\sffamily \thepage}
+
+\usepackage{mathpazo} 
+\usepackage{eulervm}
+
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+
+\newenvironment{list1}{
+	\begin{list}{\ding{113}}{%
+			\setlength{\itemsep}{0in}
+			\setlength{\parsep}{0in} \setlength{\parskip}{0in}
+			\setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+			\setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+	\begin{list}{$\bullet$}{%
+			\setlength{\itemsep}{0in}
+			\setlength{\parsep}{0in} \setlength{\parskip}{0in}
+			\setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+			\setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+\begin{document}
+	
+	\name{Unai Fischer Abaigar \vspace*{.05in}} 
+	
+	
+	\begin{resume}
+		\section{\sc \"Ubersicht}
+		Doktorand, Statistik, LMU M\"unchen \hfill \href{mailto:Unai.FischerAbaigar@stat.uni-muenchen.de}{Unai.FischerAbaigar@stat.uni-muenchen.de} \\
+		\href{https://unaifischerabaigar.com}{unaifischerabaigar.com}  \hfill
+		\href{https://www.linkedin.com/in/unai-fa/}{LinkedIn}, \href{https://scholar.google.com/citations?user=m9-CzAMAAAAJ&hl=de&oi=ao}{Google Scholar}
+		
+		\vspace{-0.3cm}
+		
+		%----------------------------------------------------------------------------------------
+		%	POSITIONS
+		%----------------------------------------------------------------------------------------
+		\section{\sc Positionen}
+		
+		{\bf New York University}, NYC, USA
+		
+		\vspace{-0.4cm}
+		Assistant Professor \& Faculty Fellow, \href{https://cds.nyu.edu}{Center for Data Science} \hfill {Ab Herbst 2026}\\
+		
+		\vspace{-0.5cm}
+		{\bf Massachusetts Institute of Technology (MIT)}, Cambridge, MA, USA
+		
+		\vspace{-0.4cm}
+		Gastwissenschaftler, \href{https://lids.mit.edu}{Laboratory for Information and Decision Systems} \hfill {Apr 2026 -- Mai 2026}\\
+		\begin{list2}
+			\vspace*{-0.3cm}
+			\item Gastgeber: \href{https://sendhil.org}{Sendhil Mullainathan} 
+			%und \href{https://jcperdomo.org}{Juan Carlos Perdomo}
+		\end{list2}
+		
+		\vspace{-0.2cm}
+		{\bf Institut f\"ur Arbeitsmarkt- und Berufsforschung (IAB)}, N\"urnberg, Deutschland
+		
+		\vspace{-0.4cm}
+		Gastwissenschaftler \hfill {Sep 2025 --}
+%		\begin{list2}
+%			\vspace*{-0.3cm}
+%%			\item Entwicklung eines algorithmischen Systems zur fr\"uhzeitigen Zuweisung von Arbeitssuchenden mit hohem Risiko an spezialisierte Beratungsteams
+%%			\item Zusammenarbeit mit Stakeholdern der Bundesagentur f\"ur Arbeit zur \"Uberf\"uhrung von Forschungsmethoden in operative Instrumente
+%		\end{list2}
+		
+		\vspace{-0.25cm}
+		{\bf Harvard University}, Cambridge, USA
+		
+		\vspace{-0.4cm}
+		Fellow, \href{https://seas.harvard.edu}{Harvard SEAS} \hfill {Sep 2024 -- Dez 2024}\\
+		\begin{list2}
+			\vspace*{-0.3cm}
+			\item Gastgeber: \href{https://dwork.seas.harvard.edu}{Cynthia Dwork} und \href{https://jcperdomo.org}{Juan Carlos Perdomo}
+%			\item Anwendung von ML-Methoden zur Identifikation von Hochrisikopopulationen in administrativen Massendaten ($>$60 Mio. Datens\"atze von Arbeitssuchenden); Untersuchung, wann Pr\"adiktion die Zielgenauigkeit \"offentlicher Ressourcenallokation verbessert
+		\end{list2}
+		
+		%----------------------------------------------------------------------------------------
+		%	EDUCATION 
+		%----------------------------------------------------------------------------------------
+		\section{\sc Ausbildung}
+		{\bf Ludwig-Maximilians-Universit\"at M\"unchen}, M\"unchen, Deutschland
+		
+		\vspace{-0.4cm}
+		Promotion in Statistik \hfill {Oktober 2022 --} \\
+		
+		\begin{list2}
+			\vspace*{-0.3cm}
+			\item Betreuer: \href{(https://www.stat.lmu.de/soda/en/team/contact-page/frauke-kreuter-825909f7.html)}{Frauke Kreuter}, \href{https://www.stat.lmu.de/soda/en/team/contact-page/christoph-kern-11bd67d0.html}{Christoph Kern}
+			\item Affiliierter Forscher am \href{https://mcml.ai}{Munich Center for Machine Learning}
+		\end{list2}
+		
+		{\bf Ruprecht-Karls-Universit\"at Heidelberg}, Heidelberg, Deutschland
+		
+		\vspace{-0.4cm}
+		M.Sc. Physik \hfill {M\"arz 2022}\\
+		
+		\begin{list2}
+			\vspace*{-0.3cm}
+			\item Masterarbeit: \emph{Modeling Ordinal Mobile Data with Sequential Variational Autoencoders}
+		\end{list2}
+		
+		\vspace{-0.3cm}
+		B.Sc. Physik \hfill {Februar 2020} \\
+		
+		\begin{list2}
+			\vspace*{-0.4cm}
+			\item Bachelorarbeit: \emph{Modeling the Evolution of Cooperation through Indirect Reciprocity}
+		\end{list2}
+		
+		{\bf Leibniz Kolleg, Universit\"at T\"ubingen}, T\"ubingen, Deutschland
+		
+		\vspace{-0.4cm}
+		Einjähriges Studium Generale \hfill {Juli 2016}\\
+		
+		\vspace{-0.5cm}
+		{\bf Droste-Hülshoff Gymnasium}, Freiburg i Br, Deutschland
+		
+		\vspace{-0.4cm}
+		Abitur, 1.0 \hfill {Juni 2015}\\
+		
+		
+		
+		
+		%----------------------------------------------------------------------------------------
+		%	EARLIER RESEARCH EXPERIENCE
+		%----------------------------------------------------------------------------------------
+		\section{\sc Weitere Forschungs\-erfahrung}
+		
+		{\bf Data Science Lab, Hertie School}, Berlin, Deutschland
+		
+		\vspace{-.3cm}
+		{\em Wissenschaftlicher Mitarbeiter} \hfill {Mai 2022 -- Juli 2022}\\
+		
+		\begin{list2}
+			\vspace*{-0.3cm}
+			\item  Betreuer: \href{https://sjankin.com}{Slava Jankin} und \href{https://lynnkaack.com}{Lynn Kaack}
+			%\item Identifikation zuk\"unftiger Einsatzm\"oglichkeiten von Machine-Learning-Methoden in der \"offentlichen Verwaltung
+		\end{list2}
+		\vspace{-.3cm}
+		
+		{\bf Zentralinstitut f\"ur Seelische Gesundheit}, Mannheim, Deutschland
+		
+		\vspace{-.3cm}
+		{\em Wissenschaftliche Hilfskraft, Living Lab AI4U} \hfill {M\"ar 2022 -- Okt 2022}
+		
+%		\begin{list2}
+%			\vspace*{-0.3cm}
+%			%\item Entwicklung generativer RNN-Modelle zur Vorhersage emotionaler Verl\"aufe aus Mobiltelefon-Zeitreihendaten f\"ur personalisierte psychische Gesundheitsinterventionen
+%			%\item  Koordination der technischen Arbeit in Zusammenarbeit mit Fachleuten der \"offentlichen psychischen Gesundheitsversorgung, Schulpsychologen und Softwareentwicklern
+%		\end{list2}
+%		
+		\vspace{-.3cm}
+		{\bf Data Lab/AI, sovanta AG}, Heidelberg, Deutschland
+		
+		\vspace{-0.3cm}
+		{\em Werkstudent} \hfill {Mai 2019 -- Mai 2020}\\
+		
+%		\begin{list2}
+%			\vspace*{-0.4cm}
+%			\item ML f\"ur die Finanzallokation in der klinischen Forschung eines f\"uhrenden Pharmaunternehmens
+%		\end{list2}
+		
+		
+		%----------------------------------------------------------------------------------------
+		%	HONORS
+		%----------------------------------------------------------------------------------------
+		\section{\sc Auszeichnungen und Stipendien} 
+		
+		\href{https://www.lmu.de/en/about-lmu/international-network/lmu-nyu-research-cooperation-program/}{LMU-NYU Research Cooperation Program} \hfill {August 2025} \\
+		
+		\begin{list2}
+			\vspace*{-0.3cm}
+			\item F\"orderung f\"ur das Projekt \textit{Foundations of Statistical Prediction in the Public Sphere} ($\sim$€10.000)
+		\end{list2}
+		\vspace*{-0.3cm}
+		\newpage
+		\href{https://icml.cc/virtual/2025/awards_detail}{ICML 2025 Outstanding Paper Award} \hfill {Jul 2025} \\
+		
+		\begin{list2}
+			\vspace*{-0.3cm}
+			\item Sechs Beiträge von 12,000 angenommenen Arbeiten wurden für diese Auszeichnung ausgewählt \textit{Berichterstattung}: \href{https://nyudatascience.medium.com/helping-the-worst-off-when-hiring-more-case-workers-beats-building-better-ai-12e6f968de0b}{NYU Center for Data Science}, \href{https://open.spotify.com/episode/0UyhJ1wmxUQ5afI6jnql85?si=2366cf2f93e946f7}{Podcast-Interview}
+		\end{list2}
+		
+		\vspace*{-0.3cm}
+		\href{https://zuseschoolrelai.de}{Konrad Zuse School for Excellence in Reliable AI} \hfill {Mai 2023 --} 
+		
+%		\begin{list2}
+%			\vspace*{-0.3cm}
+%			%\item Aufnahme in ein Ausbildungs- und F\"orderprogramm mit dem Ziel, KI-Experten mit dualem Fokus auf technische Exzellenz und gesellschaftliche Implikationen von KI auszubilden
+%		\end{list2}
+		
+		\vspace*{-0.3cm}
+		\href{https://www.studienstiftung.de/en/about-us}{Studienstiftung des deutschen Volkes} \hfill {Okt 2016 -- M\"ar 2020}\\
+		\begin{list2}
+			\vspace*{-0.3cm}
+			\item Vergabe an weniger als 0.5\% der deutschen Studierenden f\"ur herausragende akademische Leistungen und gesellschaftliches Engagement
+			%; \"altestes und renommiertestes Begabtenf\"orderungswerk Deutschlands
+		\end{list2}
+		
+		
+		%--------------------------------------------------------------------------------
+		%    Publications
+		%-----------------------------------------------------------------------------------------------
+		\section{\sc Ausgew\"ahlte Publikationen}
+		
+		\nocite{*}
+		\printbibliography[heading=none]
+		
+		%--------------------------------------------------------------------------------
+		%    TALKS
+		%-----------------------------------------------------------------------------------------------
+		
+		\section{\sc Ausgew\"ahlte Vortr\"age}
+		
+		\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.8\textwidth}r@{}}
+			\emph{Understanding the Value of Prediction in Allocation}, EEAMO Working Group, virtuell & M\"arz 2026 \\
+			\emph{The Value of Prediction in Identifying the Worst-Off}, ICML 2025 (Oral), Vancouver & Juli 2025 \\
+			\emph{Universal Adaptability}, ITACOSM 2025, Universit\"at Bologna, Italien & Juli 2025 \\
+			\emph{The Value of Prediction in Identifying the Worst-Off}, FORC 2025, Stanford University & Juni 2025 \\
+			\emph{The Value of Prediction in Identifying the Worst-Off}, Social Foundations of Computation, Max-Planck-Institute for Intelligent Systems, T\"ubingen & Mai 2025 \\
+			\emph{Algorithmic Decision-Making in the Public Sector}, Theory of Computation Graduate Student Seminar, Harvard University& Okt 2024 \\
+			\emph{Introduction to Automated Decision-Making}, Coleridge Initiative, UMD, virtuell & Okt 2024
+		\end{tabular*}
+		
+		%--------------------------------------------------------------------------------
+		%    TEACHING EXPERIENCE
+		%-----------------------------------------------------------------------------------------------
+		\section{\sc Lehre}
+		
+		{\bf Ludwig-Maximilians-Universit\"at M\"unchen}, M\"unchen, Deutschland
+		
+		\vspace{-.4cm}
+		{\em Tutor \& Dozent}\\
+		\textit{Advanced Methods in Social Statistics and Social Data Science}, Vorlesung \hfill Sommer 2024, 2025 \\
+		\textit{Computational Social Science}, Vorlesung \hfill Winter 2022, 2023, 2025\\
+		\textit{Machine Learning meets Causality}, Masterseminar \hfill Winter 2023
+		
+		
+		
+		{\bf Ruprecht-Karls-Universit\"at Heidelberg}, Heidelberg, Deutschland
+		
+		\vspace{-.4cm}
+		{\em Tutor}\\
+		\textit{Machine Learning for Real-World Challenges}, Masterseminar \hfill Sommer 2022 \\
+		\textit{Dynamical Systems Theory in Machine Learning}, Vorlesung \hfill Winter 2021
+		
+		%--------------------------------------------------------------------------------
+		%    PROFESSIONAL ACTIVITIES
+		%-----------------------------------------------------------------------------------------------
+		\section{\sc Engagement}
+		
+		\href{https://www.dssgxmunich.org/startseite}{Data Science for Social Good Munich} \hfill {Nov 2022 -- Juli 2024} \\
+		{\em Organisationsteam}\\
+		
+		\begin{list2}
+			\vspace*{-0.3cm}
+			\item Mitorganisation eines jährlichen Fellowship-Programms für Machine Learning for the Public Good
+		\end{list2}
+		
+		\vspace*{-2.5mm}
+		\href{https://sites.google.com/view/datafest-2023/home}{DataFest Germany 2023} \hfill {April 2023}\\
+		{\em Organisationsteam}\\
+		\begin{list2}
+			\vspace*{-0.3cm}
+			\item Mitorganisation eines Datenanalyse-Hackathons
+		\end{list2}
+		
+	\end{resume}
+\end{document}

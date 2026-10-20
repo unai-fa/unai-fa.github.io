@@ -1,9 +1,9 @@
 ---
 layout: cv
-permalink: /cv/
+permalink: /assets/pdf/cv.pdf
 title: cv
 nav: true
-nav_order: 6
-cv_pdf: cv.pdf
+nav_order: 5
+cv_pdf: example_pdf.pdf
 description:
 ---
