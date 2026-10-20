@@ -1,0 +1,205 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[margin=0.68in,top=0.58in,bottom=0.50in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{mathpazo}
+\usepackage{microtype}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref}
+
+\definecolor{accent}{RGB}{117,20,12}
+\definecolor{secondary}{RGB}{75,75,75}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=accent,
+  linkcolor=accent,
+  pdfauthor={Unai Fischer Abaigar},
+  pdftitle={Curriculum Vitae - Unai Fischer Abaigar}
+}
+\urlstyle{same}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[L]{\footnotesize\color{secondary}Unai Fischer Abaigar}
+\fancyfoot[C]{\footnotesize\color{secondary}Last updated September 2026}
+\fancyfoot[R]{\footnotesize\color{secondary}\thepage}
+\setlength{\footskip}{22pt}
+
+\titleformat{\section}
+  {\large\bfseries\color{black}}
+  {}{0pt}{}
+  [\vspace{0.10em}{\color{black}\titlerule[0.4pt]}]
+\titlespacing*{\section}{0pt}{0.88em}{0.60em}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlist[itemize]{leftmargin=1.15em,itemsep=0.05em,topsep=0.12em,parsep=0pt,partopsep=0pt}
+\setlist[enumerate]{leftmargin=1.55em,itemsep=0.22em,topsep=0.12em,parsep=0pt,partopsep=0pt}
+
+\newcommand{\cventry}[4]{%
+  \begin{tabularx}{\textwidth}{@{}X>{\raggedleft\arraybackslash}p{1.48in}@{}}
+    \textbf{#1} & #2 \\
+    \textit{#3} & #4
+  \end{tabularx}\vspace{0.12em}
+}
+
+\newcommand{\cvline}[2]{%
+  \begin{tabularx}{\textwidth}{@{}X>{\raggedleft\arraybackslash}p{1.48in}@{}}
+    #1 & #2
+  \end{tabularx}
+}
+
+\newcommand{\awardentry}[3]{%
+  \begin{tabularx}{\textwidth}{@{}X>{\raggedleft\arraybackslash}p{1.48in}@{}}
+    \textbf{#1} & #3 \\
+    {\hangindent=1.05em\hangafter=1\textbullet\hspace{0.48em}#2} &
+  \end{tabularx}\vspace{0.10em}
+}
+
+\newcommand{\talkentry}[3]{%
+  \begin{tabularx}{\textwidth}{@{}X@{\hspace{0.16in}}>{\raggedleft\arraybackslash}p{0.76in}@{}}
+    {\hangindent=1.02em\hangafter=1\textbullet\hspace{0.44em}\textit{#1}} & #3 \\
+    \hspace*{1.02em}\textcolor{secondary}{#2} &
+  \end{tabularx}
+}
+
+\newcommand{\courseentry}[3]{%
+  \textit{#1}\\[-0.08em]
+  #2\hfill #3\\
+}
+
+\newcommand{\me}{\textbf{Unai Fischer-Abaigar}}
+
+\begin{document}
+
+{\fontsize{19}{21}\selectfont\bfseries Unai Fischer Abaigar}\hfill
+{\small\href{mailto:uf2034@nyu.edu}{uf2034@nyu.edu}}
+
+\vspace{0.22em}
+{\large Data Science Assistant Professor / Faculty Fellow, New York University}
+
+\vspace{0.20em}
+{\normalsize\href{https://unaifischerabaigar.com}{unaifischerabaigar.com}}
+\hfill
+{\small\href{https://scholar.google.com/citations?user=m9-CzAMAAAAJ}{Google Scholar}}
+
+\section{Academic Appointments}
+
+\cventry{New York University}{New York, NY}{Data Science Assistant Professor / Faculty Fellow, Center for Data Science}{Sep 2026--present}
+
+\cventry{Massachusetts Institute of Technology}{Cambridge, MA}{Visiting Student, Laboratory for Information and Decision Systems}{Apr--May 2026}
+Hosted by Sendhil Mullainathan and Juan Carlos Perdomo.
+
+\vspace{0.28em}
+\cventry{Institute for Employment Research (IAB)}{Nuremberg, Germany}{Guest Researcher}{Sep 2025--Jul 2026}
+
+\vspace{0.28em}
+\cventry{Harvard University}{Cambridge, MA}{Fellow, Harvard SEAS and CRCS}{Sep--Dec 2024}
+Hosted by Cynthia Dwork and Juan Carlos Perdomo.
+
+\vspace{0.28em}
+\cventry{Hertie School Data Science Lab}{Berlin, Germany}{Research Associate}{May--Jul 2022}
+
+\section{Education}
+
+\cventry{LMU Munich}{Munich, Germany}{Ph.D. (Dr. rer. nat.) in Statistics, magna cum laude}{July 2026}
+Dissertation: \href{https://unaifischerabaigar.com/assets/pdf/phd-thesis.pdf}{\textit{Foundations of Prediction in the Public Sphere}}.\\
+Advised by Frauke Kreuter and Christoph Kern, with Avi Feller and Julia Stoyanovich serving as examiners.\\
+Affiliation: \href{https://mcml.ai}{Munich Center for Machine Learning (MCML)}.
+
+\vspace{0.3em}
+\cventry{Ruprecht Karl University of Heidelberg}{Heidelberg, Germany}{M.Sc. in Physics}{2022}
+
+\vspace{0.3em}
+\cventry{Ruprecht Karl University of Heidelberg}{Heidelberg, Germany}{B.Sc. in Physics}{2020}
+
+\section{Honors and Awards}
+
+\awardentry{LMU-NYU Research Cooperation Program}{EUR 10,000 in project funding for \textit{Foundations of Statistical Prediction in the Public Sphere}.}{2025}
+\awardentry{ICML Outstanding Paper Award}{One of six papers selected; awarded for \textit{The Value of Prediction in Identifying the Worst-Off}.}{2025}
+\awardentry{Konrad Zuse School for Excellence in Reliable AI}{Doctoral fellowship and advanced training program.}{2023--2026}
+\awardentry{German Academic Scholarship Foundation (\textit{Studienstiftung})}{Scholarship awarded to fewer than 0.5\% of German students.}{2016--2020}
+
+\section{Publications}
+
+\begin{itemize}
+  \item \me, Emily Aiken, Christoph Kern, and Juan Carlos Perdomo.
+  \href{https://arxiv.org/abs/2602.08786}{``On the Meta-Design of Allocation Problems.''}
+  \textit{Advances in Neural Information Processing Systems (NeurIPS)}, 2026.
+
+  \item Julian Rodemann, \me, James Bailie, and Krikamol Muandet.
+  \href{https://arxiv.org/abs/2602.04402}{``Performative Learning Theory.''}
+  \textit{International Conference on Machine Learning (ICML)}, 2026.
+
+\end{itemize}
+\newpage
+\begin{itemize}
+
+  \item \me, Christoph Kern, and Juan Carlos Perdomo.
+  \href{https://arxiv.org/abs/2501.19334}{``The Value of Prediction in Identifying the Worst-Off.''}
+  \textit{International Conference on Machine Learning (ICML)}, 2025.
+  \textbf{Outstanding Paper Award}; highlight track at FORC 2025.
+
+  \item Christoph Kern, \me, Jonas Schweisthal, Dennis Frauen, Rayid Ghani, Stefan Feuerriegel, Mihaela van der Schaar, and Frauke Kreuter.
+  \href{https://doi.org/10.1038/s43588-025-00814-9}{``Algorithms for Reliable Decision-Making Need Causal Reasoning.''}
+  \textit{Nature Computational Science}, 2025.
+
+  \item \me, Christoph Kern, Noam Barda, and Frauke Kreuter.
+  \href{https://doi.org/10.1016/j.giq.2024.101976}{``Bridging the Gap: Towards an Expanded Toolkit for AI-Driven Decision-Making in the Public Sector.''}
+  \textit{Government Information Quarterly} 41(4), 2024.
+
+  \item \me, Christoph Kern, and Frauke Kreuter.
+  \href{https://arxiv.org/abs/2407.10779}{``The Missing Link: Allocation Performance in Causal Machine Learning.''}
+  \textit{ICML Workshop on Humans, Algorithmic Decision-Making and Society}, 2024.
+
+  \item Christian G\"otzl, Selina Hiller, Christian Rauschenberg, Anita Schick, Janik Fechtelpeter, \me, Georgia Koppe, Daniel Durstewitz, Ulrich Reininghaus, and Silvia Krumm.
+  \href{https://doi.org/10.1186/s13034-022-00522-6}{``Artificial Intelligence-Informed Mobile Mental Health Apps for Young People: A Mixed-Methods Approach on Users' and Stakeholders' Perspectives.''}
+  \textit{Child and Adolescent Psychiatry and Mental Health} 16, 2022.
+\end{itemize}
+
+\section{Talks}
+
+\talkentry{The Value of Prediction in Allocation}{CDS Seminar, New York University}{Oct 2026}
+\talkentry{Understanding the Value of Prediction in Allocation}{EAAMO Bridges Inequality Working Group, virtual}{Mar 2026}
+\talkentry{The Value of Prediction in Identifying the Worst-Off}{ICML, oral presentation, Vancouver}{Jul 2025}
+\talkentry{Adjusting Survey Estimates Using Multiaccuracy Postprocessing}{ITACOSM, Bologna}{Jul 2025}
+\talkentry{The Value of Prediction in Identifying the Worst-Off}{FORC, Stanford University}{Jun 2025}
+\talkentry{The Value of Prediction in Identifying the Worst-Off}{Social Foundations of Computation, Max Planck Institute for Intelligent Systems, T\"ubingen}{May 2025}
+\talkentry{Algorithmic Decision-Making in the Public Sector}{Theory of Computation Graduate Student Seminar, Harvard University}{Oct 2024}
+\talkentry{Introduction to Automated Decision-Making}{Coleridge Initiative, University of Maryland}{Oct 2024}
+\talkentry{Machine Learning for Reliable Decision-Making}{Zuse Industry Workshop on Algorithmic Decision-Making}{Apr 2024}
+\talkentry{Challenges for ML-Supported Decision-Making}{Department of Statistics Seminar, LMU Munich}{Jan 2024}
+
+\section{Teaching}
+
+\textbf{LMU Munich}
+\vspace{0.06em}
+
+\courseentry{Advanced Methods in Social Statistics and Social Data Science}{Co-instructor}{Summer 2024, 2025}
+\courseentry{Machine Learning Meets Causality}{Co-instructor}{Winter 2023}
+\courseentry{Computational Social Science}{Teaching assistant}{Winter 2022, 2023, 2025}
+
+\textbf{Ruprecht Karl University of Heidelberg}
+\vspace{0.06em}
+
+\courseentry{Machine Learning for Real-World Challenges}{Teaching assistant}{Summer 2022}
+\courseentry{Dynamical Systems Theory in Machine Learning and Data Science}{Teaching assistant}{Winter 2021}
+
+\section{Professional Service and Outreach}
+
+\cvline{NeurIPS Top Reviewer}{2026}
+\cvline{Conference reviewer: ICML; NeurIPS}{}
+\cvline{Member, \href{https://bridges.eaamo.org/working_groups/inequality/}{EAAMO Bridges Inequality Working Group}}{2026}
+\cvline{Co-organizer, \href{https://www.dssgxmunich.org}{Data Science for Social Good Munich}}{2022--2024}
+\cvline{Organizing team, \href{https://sites.google.com/view/datafest-lmu-2025/home}{DataFest Germany}}{2023, 2025}
+
+\end{document}

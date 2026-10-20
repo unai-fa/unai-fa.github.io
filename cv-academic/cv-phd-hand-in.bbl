@@ -1,0 +1,238 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ydnt/global//global/global}
+    \entry{fischer2026empirically}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=69b0287820b6380d378447ea9b0be6b0}{%
+           family={Fischer-Abaigar},
+           familyi={F\bibinithyphendelim A\bibinitperiod},
+           given={Unai},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a9b68a54c6517d456a1152040a7146fc}{%
+           family={Aiken},
+           familyi={A\bibinitperiod},
+           given={Emily},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb10d3e580dacf8bda6d5d7c3539f69d}{%
+           family={Kern},
+           familyi={K\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bdeb8c3064a1abf721f27c2cc779ee01}{%
+           family={Perdomo},
+           familyi={P\bibinitperiod},
+           given={Juan\bibnamedelima Carlos},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{21c3d8e2a04162022d868ac540ff582a}
+      \strng{fullhash}{21c3d8e2a04162022d868ac540ff582a}
+      \strng{bibnamehash}{21c3d8e2a04162022d868ac540ff582a}
+      \strng{authorbibnamehash}{21c3d8e2a04162022d868ac540ff582a}
+      \strng{authornamehash}{21c3d8e2a04162022d868ac540ff582a}
+      \strng{authorfullhash}{21c3d8e2a04162022d868ac540ff582a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2602.08786}
+      \field{title}{Empirically Understanding the Value of Prediction in Allocation}
+      \field{year}{2026}
+      \true{nocite}
+    \endentry
+    \entry{fischer2025the}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=69b0287820b6380d378447ea9b0be6b0}{%
+           family={Fischer-Abaigar},
+           familyi={F\bibinithyphendelim A\bibinitperiod},
+           given={Unai},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb10d3e580dacf8bda6d5d7c3539f69d}{%
+           family={Kern},
+           familyi={K\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bdeb8c3064a1abf721f27c2cc779ee01}{%
+           family={Perdomo},
+           familyi={P\bibinitperiod},
+           given={Juan\bibnamedelima Carlos},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d0481915d0808bd94ab31c8c1e1a9ecc}
+      \strng{fullhash}{d0481915d0808bd94ab31c8c1e1a9ecc}
+      \strng{bibnamehash}{d0481915d0808bd94ab31c8c1e1a9ecc}
+      \strng{authorbibnamehash}{d0481915d0808bd94ab31c8c1e1a9ecc}
+      \strng{authornamehash}{d0481915d0808bd94ab31c8c1e1a9ecc}
+      \strng{authorfullhash}{d0481915d0808bd94ab31c8c1e1a9ecc}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 42nd International Conference on Machine Learning (ICML)}
+      \field{note}{\textbf{Oral Presentation @ ICML 2025}, \textbf{Highlight Track @ FORC 2025}}
+      \field{title}{The Value of Prediction in Identifying the Worst-Off}
+      \field{year}{2025}
+      \true{nocite}
+    \endentry
+    \entry{Kern2025}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=cb10d3e580dacf8bda6d5d7c3539f69d}{%
+           family={Kern},
+           familyi={K\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=69b0287820b6380d378447ea9b0be6b0}{%
+           family={Fischer-Abaigar},
+           familyi={F\bibinithyphendelim A\bibinitperiod},
+           given={Unai},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c418acee45e684477a210becb44ee24e}{%
+           family={Schweisthal},
+           familyi={S\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3b64fc0fa23681b890b424e43960e051}{%
+           family={Frauen},
+           familyi={F\bibinitperiod},
+           given={Dennis},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6cfc641e2ca8f9579534edebf4ffb064}{%
+           family={Ghani},
+           familyi={G\bibinitperiod},
+           given={Rayid},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d276dae900e4bb8a8a125633e0277484}{%
+           family={Feuerriegel},
+           familyi={F\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=44c5ebc1d90d166c1418c35650bdd2ef}{%
+           family={Schaar},
+           familyi={S\bibinitperiod},
+           given={Mihaela},
+           giveni={M\bibinitperiod},
+           givenun=0,
+           prefix={van\bibnamedelima der},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=7c91aa8a97e2bf810febcf40b083a72b}{%
+           family={Kreuter},
+           familyi={K\bibinitperiod},
+           given={Frauke},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b3b40b941234796857e6e83edb8d3974}
+      \strng{fullhash}{b3b40b941234796857e6e83edb8d3974}
+      \strng{bibnamehash}{b3b40b941234796857e6e83edb8d3974}
+      \strng{authorbibnamehash}{b3b40b941234796857e6e83edb8d3974}
+      \strng{authornamehash}{b3b40b941234796857e6e83edb8d3974}
+      \strng{authorfullhash}{b3b40b941234796857e6e83edb8d3974}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Decision-making inherently involves cause–effect relationships that introduce causal challenges. We argue that reliable algorithms for decision-making need to build upon causal reasoning. Addressing these causal challenges requires explicit assumptions about the underlying causal structure to ensure identifiability and estimatability, which means that the computational methods must successfully align with decision-making objectives in real-world tasks.}
+      \field{issn}{2662-8457}
+      \field{journaltitle}{Nature Computational Science}
+      \field{title}{Algorithms for reliable decision-making need causal reasoning}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1038/s43588-025-00814-9
+      \endverb
+    \endentry
+    \entry{fischerabaigar2024bridginggapexpandedtoolkit}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=69b0287820b6380d378447ea9b0be6b0}{%
+           family={Fischer-Abaigar},
+           familyi={F\bibinithyphendelim A\bibinitperiod},
+           given={Unai},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb10d3e580dacf8bda6d5d7c3539f69d}{%
+           family={Kern},
+           familyi={K\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=67283d6b028e13c943ec5520d25e2c06}{%
+           family={Barda},
+           familyi={B\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7c91aa8a97e2bf810febcf40b083a72b}{%
+           family={Kreuter},
+           familyi={K\bibinitperiod},
+           given={Frauke},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8b9402d6281c8030b75b2ffad9a48224}
+      \strng{fullhash}{8b9402d6281c8030b75b2ffad9a48224}
+      \strng{bibnamehash}{8b9402d6281c8030b75b2ffad9a48224}
+      \strng{authorbibnamehash}{8b9402d6281c8030b75b2ffad9a48224}
+      \strng{authornamehash}{8b9402d6281c8030b75b2ffad9a48224}
+      \strng{authorfullhash}{8b9402d6281c8030b75b2ffad9a48224}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{AI-driven decision-making systems are becoming instrumental in the public sector, with applications spanning areas like criminal justice, social welfare, financial fraud detection, and public health. While these systems offer great potential benefits to institutional decision-making processes, such as improved efficiency and reliability, these systems face the challenge of aligning machine learning (ML) models with the complex realities of public sector decision-making. In this paper, we examine five key challenges where misalignment can occur, including distribution shifts, label bias, the influence of past decision-making on the data side, as well as competing objectives and human-in-the-loop on the model output side. Our findings suggest that standard ML methods often rely on assumptions that do not fully account for these complexities, potentially leading to unreliable and harmful predictions. To address this, we propose a shift in modeling efforts from focusing solely on predictive accuracy to improving decision-making outcomes. We offer guidance for selecting appropriate modeling frameworks, including counterfactual prediction and policy learning, by considering how the model estimand connects to the decision-maker's utility. Additionally, we outline technical methods that address specific challenges within each modeling approach. Finally, we argue for the importance of external input from domain experts and stakeholders to ensure that model assumptions and design choices align with real-world policy objectives, taking a step towards harmonizing AI and public sector objectives.}
+      \field{issn}{0740-624X}
+      \field{journaltitle}{Government Information Quarterly}
+      \field{number}{4}
+      \field{title}{Bridging the gap: Towards an expanded toolkit for AI-driven decision-making in the public sector}
+      \field{volume}{41}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{101976}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.giq.2024.101976
+      \endverb
+      \keyw{Automated decision-making,Reliable artificial intelligence,Public policy,Causal machine learning}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
