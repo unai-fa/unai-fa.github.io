@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1792460762.38835 "/Users/uf2034/Documents/Code/unai-fa.github.io/cv-academic/cv.tex" "cv.pdf" "cv" 1792460762.75195 0
-  "/Users/uf2034/Documents/Code/unai-fa.github.io/cv-academic/cv.tex" 1792460761.86001 9183 eb1df86b8922de0447304f50f2497494 ""
+["pdflatex"] 1793565470.75844 "/Users/uf2034/Documents/Code/unai-fa.github.io/cv-academic/cv.tex" "cv.pdf" "cv" 1793565471.15209 0
+  "/Users/uf2034/Documents/Code/unai-fa.github.io/cv-academic/cv.tex" 1793565470.57486 10791 9e3b00c9b38ffb4ec77ecf85685fdc18 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm" 1136768653 2532 9ad73cf4dd2173a847f2a5f5608e0b9a ""
@@ -88,9 +88,9 @@
   "/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1791339219 5573038 b99aad5e4898a9034e953632f940512b ""
   "/usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1774209607 3636776 dc5fa9b6b1453b9d196cd42edf876004 ""
   "/usr/local/texlive/2026/texmf.cnf" 1774209515 577 648cd9f92f9c0eac486f4c71c85cfbbe ""
-  "cv.aux" 1792460762.72684 946 79c4459b16925b28aa0873e9ec2c4993 "pdflatex"
-  "cv.out" 1792460762.7272 844 a49424c820b01b252d73a3a54d45fb1a "pdflatex"
-  "cv.tex" 1792460761.86001 9183 eb1df86b8922de0447304f50f2497494 ""
+  "cv.aux" 1793565471.12522 1051 a7a23ecc5caf5605aa1a288a920b85ea "pdflatex"
+  "cv.out" 1793565471.12551 927 9282428950d6caf0d1d1ac3bb35932eb "pdflatex"
+  "cv.tex" 1793565470.57486 10791 9e3b00c9b38ffb4ec77ecf85685fdc18 ""
   (generated)
   "cv.aux"
   "cv.log"
