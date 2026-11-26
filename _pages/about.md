@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-role: Faculty Fellow and Data Science Assistant Professor at NYU CDS
+role: Faculty Fellow and Data Science Assistant Professor
+role_org: NYU Center for Data Science
 role_url: https://cds.nyu.edu
 bio: |
   The goal of my research is to develop rigorous theoretical and empirical foundations for AI in the public sphere. I organize my work around methodologies for evaluating AI in society and empirical partnerships with public agencies. 
@@ -17,7 +18,7 @@ profile:
   image: profile-photo.jpg
   image_alt: Portrait of Unai Fischer Abaigar
   image_circular: false
-news: true
+news: false
 selected_papers: false
 social: false
 ---

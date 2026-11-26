@@ -13,7 +13,12 @@ layout: default
       </h1>
       {% if page.role %}
         <p class="about-role">
-          {% if page.role_url %}<a href="{{ page.role_url }}">{{ page.role }}</a>{% else %}{{ page.role }}{% endif %}
+          {{ page.role }}
+          {% if page.role_org %}
+            <span class="about-role-org">
+              {% if page.role_url %}<a href="{{ page.role_url }}">{{ page.role_org }}</a>{% else %}{{ page.role_org }}{% endif %}
+            </span>
+          {% endif %}
         </p>
       {% endif %}
       {% if page.bio %}<div class="about-intro">{{ page.bio | markdownify }}</div>{% endif %}

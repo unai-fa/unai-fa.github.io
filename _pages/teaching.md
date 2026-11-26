@@ -8,6 +8,13 @@ compact: true
 ---
 
 <section class="teaching-group">
+  <h2><a href="https://www.nyu.edu">New York University</a></h2>
+  <ul class="teaching-bullets">
+    <li><strong>Responsible Data Science</strong> (DS-UA 202), Instructor (Spring 2027)</li>
+  </ul>
+</section>
+
+<section class="teaching-group">
   <h2><a href="https://www.lmu.de/en">LMU Munich</a></h2>
   <ul class="teaching-bullets">
     <li><strong>Advanced Methods in Social Statistics and Social Data Science</strong>, Co-Instructor (Summer 2024 and 2025)</li>
